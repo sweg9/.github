@@ -8,12 +8,12 @@ A camera finds wall switches, push buttons, toggles, knobs and remotes, works ou
 
 Department of Information Systems, Hanyang University
 
-| Name | Role | Email |
+| Name | Role | Organization | Email |
 |---|---|---|
-| Geonhak Lee | AI Developer | thisiscrane@hanyang.ac.kr |
-| Jemin An | Backend Developer | ajm6396@hanyang.ac.kr |
-| Jiwon Han | Backend Developer | hjw9657@hanyang.ac.kr |
-| Hyunseo Choi | Frontend Developer | hyunseo615@hanyang.ac.kr |
+| Geonhak Lee | AI Developer | Department of Information Systems, Hanyang University | thisiscrane@hanyang.ac.kr |
+| Jemin An | Backend Developer | Department of Information Systems, Hanyang University | ajm6396@hanyang.ac.kr |
+| Jiwon Han | Backend Developer | Department of Information Systems, Hanyang University | hjw9657@hanyang.ac.kr |
+| Hyunseo Choi | Frontend Developer | Department of Information Systems, Hanyang University | hyunseo615@hanyang.ac.kr |
 
 ## Repositories
 

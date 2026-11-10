@@ -2,7 +2,7 @@
 
 **Vision-Based Recognition and Actuation of Unconnected Home Controls**
 
-A camera finds wall switches, push buttons, toggles, knobs and remotes, works out which device each one operates, and routines use them through wireless channels or, when those fail, a physical press by a small robot arm.
+A camera finds wall switches, toggles and power strips, works out which device each one operates, and routines use them through wireless channels or, when those fail, a physical press by a robot (linear actuators on a cart in the prototype).
 
 ## Team
 
@@ -19,7 +19,7 @@ Department of Information Systems, Hanyang University
 
 | Repo | Role |
 |---|---|
-| [ai-engine](https://github.com/sweg9/ai-engine) | Control detection, VLM, state check, arm motion planner |
+| [ai-engine](https://github.com/sweg9/ai-engine) | Control detection, VLM, state check, robot motion planner |
 | [backend-server](https://github.com/sweg9/backend-server) | FastAPI backend: mapping, routines, orchestrator, channels, safety gate |
 | [dataset](https://github.com/sweg9/dataset) | Switch-panel photos and labels for the detector |
 | [live-demo](https://github.com/sweg9/live-demo) | Front end for the real camera and robot hand |

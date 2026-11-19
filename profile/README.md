@@ -1,6 +1,6 @@
 # NOVA
 
-**Non-connected Object Vision and Actuation**
+**Non-connected Object Vision and Actuation for Smart Home Routines**
 
 A camera finds wall switches, toggles and power strips, works out which device each one operates, and routines use them through wireless channels or, when those fail, a physical press by a robot (linear actuators on a cart in the prototype).
 

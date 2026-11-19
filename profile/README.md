@@ -4,10 +4,6 @@
 
 A camera finds wall switches, toggles and power strips, works out which device each one operates, and routines use them through wireless channels or, when those fail, a physical press by a robot (linear actuators on a cart in the prototype).
 
-## Blog
-
-https://app.notion.com/p/41776e6f9e9f8117aa9efc686be79329
-
 ## Architecture Design
 
 <img src="architecture.png" width="560" alt="NOVA architecture: everything runs on one laptop at home. A k3d cluster holds the ingress, the server and the logging stack; the hub runs outside it and drives the webcam and the actuators.">

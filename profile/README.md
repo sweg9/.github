@@ -2,6 +2,8 @@
 
 > 26-2 Hanyang University Software Engineering Project
 
+<img src="hero.png" width="100%" alt="NOVA: a phone app with quick control of the main light and the robot task light, beside a light switch card and the tracked robot arm.">
+
 ---
 
 ## 📚 Documents

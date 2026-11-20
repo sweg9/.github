@@ -4,6 +4,61 @@
 
 > 26-2 Hanyang University Software Engineering Project
 
+## Documents
+
+**Reports**
+- [Proposal (PDF)](https://sweg9.github.io/docs/papers/proposal.pdf): the reference document for the project
+- [Development wiki](https://sweg9.github.io/docs/): every document below, with search and rendered API specs
+- Presentation slides: *coming soon*
+
+**Overview**
+- [Introduction](https://sweg9.github.io/docs/overview/): the problem, the seven stages, autonomy by risk and privacy
+- [Requirements](https://sweg9.github.io/docs/product/requirements): FR-01 to FR-12, owners and how each is built
+- [Architecture](https://sweg9.github.io/docs/overview/architecture): parts, data and interfaces
+- [Stack](https://sweg9.github.io/docs/overview/stack): run modes, libraries, Kubernetes, logging and backups
+
+<details>
+<summary><b>Design · 4 docs</b></summary>
+
+- [Database](https://sweg9.github.io/docs/overview/database): tables, enums and migrations
+- [Modules](https://sweg9.github.io/docs/overview/modules): code layout of each repo
+- [Models](https://sweg9.github.io/docs/product/models): detectors, state classifier and fingerprints
+- [Related work](https://sweg9.github.io/docs/overview/related-work): what existing products and research leave open
+
+</details>
+
+<details>
+<summary><b>API · 4 docs</b></summary>
+
+- [Conventions](https://sweg9.github.io/docs/api/): rules shared by every API
+- [backend-server API](https://sweg9.github.io/docs/api/backend-server): the HTTP API for the web app
+- [Hub messages](https://sweg9.github.io/docs/api/hub-messages): WebSocket messages between the hub and the server
+- [ai-engine interface](https://sweg9.github.io/docs/api/ai-engine): what the hub calls in ai-engine
+
+</details>
+
+<details>
+<summary><b>Data, demo and environment · 5 docs</b></summary>
+
+- [Labeling spec](https://sweg9.github.io/docs/dataset/labeling): how switch-panel photos are labeled
+- [Dataset plan](https://sweg9.github.io/docs/dataset/PLAN): collection and split plan
+- [live-demo plan](https://sweg9.github.io/docs/live-demo/PLAN): the web app and the demo screens
+- [Simulator](https://sweg9.github.io/docs/product/simulator): Unity and web simulator, current state
+- [Development environment](https://sweg9.github.io/docs/product/environment): tools and setup
+
+</details>
+
+<details>
+<summary><b>Standards · 5 docs</b></summary>
+
+- [Common rules](https://sweg9.github.io/docs/standards/common): rules C-01 to C-13 for every repo
+- [Data model](https://sweg9.github.io/docs/standards/data-model): shared vocabulary and enums
+- [Execution log](https://sweg9.github.io/docs/standards/execution-log): the run log format
+- [AI output](https://sweg9.github.io/docs/standards/ai-output): rules for model outputs
+- [Per-repo obligations](https://sweg9.github.io/docs/standards/per-repo): what each repo must provide
+
+</details>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -135,13 +190,10 @@ Channel scores, link confidence and routine usefulness update after each run, ev
 <tr>
 <td width="35%" valign="top">
 
-### Demo and Links
+### Demo
 
 - [Web demo](https://github.com/sweg9/sim-demo/tree/main/web): the 20-second process in a browser, no install
 - Demo video: *coming soon*
-- Proposal: [PDF](https://sweg9.github.io/docs/papers/proposal.pdf)
-- Wiki: [sweg9.github.io/docs](https://sweg9.github.io/docs/)
-- Slides: *coming soon*
 
 </td>
 <td width="65%" valign="top">

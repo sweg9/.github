@@ -85,7 +85,7 @@ Every action is checked rather than assumed, high-risk devices always ask first,
 
 **Demo video: coming soon**
 
-Until then, the [web demo](https://github.com/sweg9/sim-demo/tree/main/web) runs the 20-second process (mapping, Wi-Fi failure, Safety Guard, physical press, camera check) in a browser, with no install and no internet.
+Until then, the [web demo](https://sweg9.github.io/sim-demo/) runs the 20-second process (mapping, Wi-Fi failure, Safety Guard, physical press, camera check) in a browser, with no install. Its [source](https://github.com/sweg9/sim-demo/tree/main/web) also runs offline from a local copy.
 
 ---
 
@@ -101,7 +101,7 @@ NOVA | Presentation Slides - *coming soon*
 
 [NOVA | Proposal - LaTeX](https://github.com/sweg9/docs/blob/main/public/papers/proposal.tex)
 
-[NOVA | Web Demo](https://github.com/sweg9/sim-demo/tree/main/web)
+[NOVA | Web Demo](https://sweg9.github.io/sim-demo/)
 
 ---
 

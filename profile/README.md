@@ -89,9 +89,13 @@ Until then, the [web demo](https://github.com/sweg9/sim-demo/tree/main/web) runs
 
 ## 🔗 Links
 
+NOVA | Tech Blog - *coming soon*
+
 [NOVA | Development Wiki](https://sweg9.github.io/docs/)
 
 [NOVA | Proposal - PDF](https://sweg9.github.io/docs/papers/proposal.pdf)
+
+[NOVA | Proposal - LaTeX](https://github.com/sweg9/docs/blob/main/public/papers/proposal.tex)
 
 [NOVA | Web Demo](https://github.com/sweg9/sim-demo/tree/main/web)
 

@@ -7,6 +7,7 @@
 ## Documents
 
 **Reports**
+- Tech blog (Notion): *coming soon*
 - [Proposal (PDF)](https://sweg9.github.io/docs/papers/proposal.pdf): the reference document for the project
 - [Proposal (LaTeX)](https://github.com/sweg9/docs/blob/main/public/papers/proposal.tex): the LaTeX source of the proposal
 - [Development wiki](https://sweg9.github.io/docs/): every document below, with search and rendered API specs

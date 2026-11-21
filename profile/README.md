@@ -71,7 +71,7 @@ This project proposes NOVA, a system that lets a proactive smart-home agent oper
 
 In the proposed system, a camera finds each control and the system works out which device it operates, by watching the resident use it or by pressing it and comparing before and after. Routines then use these controls through wireless channels (Wi-Fi, IR, Bluetooth) first. When a wireless command fails and the Safety Guard finds no person or obstacle in the way, a robot presses the control and the camera checks the result. In the prototype, the robot is a set of linear actuators on a cart.
 
-Every action is checked rather than assumed, high-risk devices always ask first, and every run updates channel scores and link confidence. Recognition runs on a hub at home with local models and the backend runs on the same laptop, so nothing leaves the home. This proposal demonstrates how unconnected controls can take part in proactive smart-home routines without replacing them.
+Every action is checked rather than assumed, high-risk devices always ask first, and every run updates channel scores and link confidence. The hub at home keeps the records and checks safety before every press. The backend runs on AWS, and recognition runs inside a Nitro Enclave there, so the encrypted crops of controls are read only inside a trusted execution environment and whole frames never leave the home. This proposal demonstrates how unconnected controls can take part in proactive smart-home routines without replacing them.
 
 ---
 

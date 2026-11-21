@@ -37,7 +37,7 @@
 - [Conventions](https://sweg9.github.io/docs/api/): rules shared by every API
 - [backend-server API](https://sweg9.github.io/docs/api/backend-server): the HTTP API for the web app
 - [Hub messages](https://sweg9.github.io/docs/api/hub-messages): WebSocket messages between the hub and the server
-- [ai-engine interface](https://sweg9.github.io/docs/api/ai-engine): what the hub calls in ai-engine
+- [ai-engine interface](https://sweg9.github.io/docs/api/ai-engine): what the Nitro Enclave calls in ai-engine
 
 </details>
 
@@ -71,7 +71,7 @@ This project proposes NOVA, a system that lets a proactive smart-home agent oper
 
 In the proposed system, a camera finds each control and the system works out which device it operates, by watching the resident use it or by pressing it and comparing before and after. Routines then use these controls through wireless channels (Wi-Fi, IR, Bluetooth) first. When a wireless command fails and the Safety Guard finds no person or obstacle in the way, a robot presses the control and the camera checks the result. In the prototype, the robot is a set of linear actuators on a cart.
 
-Every action is checked rather than assumed, high-risk devices always ask first, and every run updates channel scores and link confidence. The hub at home keeps the records and checks safety before every press. The backend runs on AWS, and recognition runs inside a Nitro Enclave there, so the encrypted crops of controls are read only inside a trusted execution environment and whole frames never leave the home. This proposal demonstrates how unconnected controls can take part in proactive smart-home routines without replacing them.
+Every action is checked rather than assumed, high-risk devices always ask first, and every run updates channel scores and link confidence. The hub at home keeps the records and checks safety before every press. The backend runs on AWS, and recognition runs inside a Nitro Enclave there, so the photos the hub sends are sealed and opened only inside that trusted execution environment, and no video leaves the home. This proposal demonstrates how unconnected controls can take part in proactive smart-home routines without replacing them.
 
 ---
 

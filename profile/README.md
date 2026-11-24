@@ -6,7 +6,7 @@
 
 ---
 
-## 📝 Blog
+## Blog
 
 [NOVA Blog](https://bit.ly/4Ckil0Z)
 

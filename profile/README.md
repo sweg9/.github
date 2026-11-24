@@ -6,6 +6,30 @@
 
 ---
 
+## 💁🏻‍♂️ Proposal
+
+This project proposes NOVA, a system that lets a proactive smart-home agent operate controls that are not on the network: wall switches, toggles and power strips. Smart-home routines work only if every control the resident cares about is connected and registered, yet many are not, and in rented homes the wiring often cannot be changed.
+
+In the proposed system, a camera finds each control and the system works out which device it operates, by watching the resident use it or by pressing it and comparing before and after. Routines then use these controls through wireless channels (Wi-Fi, IR, Bluetooth) first. When a wireless command fails and the Safety Guard finds no person or obstacle in the way, a robot presses the control and the camera checks the result. In the prototype, the robot is a set of linear actuators on a cart.
+
+Every action is checked rather than assumed, high-risk devices always ask first, and every run updates channel scores and link confidence. The hub at home keeps the records and checks safety before every press. The backend runs on AWS, and recognition runs inside a Nitro Enclave there, so the photos the hub sends are sealed and opened only inside that trusted execution environment, and no video leaves the home. This proposal demonstrates how unconnected controls can take part in proactive smart-home routines without replacing them.
+
+---
+
+## ⚙️ System Architecture
+
+![NOVA System Architecture](./architecture.png)
+
+---
+
+## 📹 Video
+
+**Demo video: coming soon**
+
+Until then, the [web demo](https://sweg9.github.io/sim-demo/) runs the 20-second process (mapping, Wi-Fi failure, Safety Guard, physical press, camera check) in a browser, with no install. Its [source](https://github.com/sweg9/sim-demo/tree/main/web) also runs offline from a local copy.
+
+---
+
 ## 📚 Documents
 
 **Reports**
@@ -62,30 +86,6 @@
 - [Per-repo obligations](https://sweg9.github.io/docs/standards/per-repo): what each repo must provide
 
 </details>
-
----
-
-## 💁🏻‍♂️ Proposal
-
-This project proposes NOVA, a system that lets a proactive smart-home agent operate controls that are not on the network: wall switches, toggles and power strips. Smart-home routines work only if every control the resident cares about is connected and registered, yet many are not, and in rented homes the wiring often cannot be changed.
-
-In the proposed system, a camera finds each control and the system works out which device it operates, by watching the resident use it or by pressing it and comparing before and after. Routines then use these controls through wireless channels (Wi-Fi, IR, Bluetooth) first. When a wireless command fails and the Safety Guard finds no person or obstacle in the way, a robot presses the control and the camera checks the result. In the prototype, the robot is a set of linear actuators on a cart.
-
-Every action is checked rather than assumed, high-risk devices always ask first, and every run updates channel scores and link confidence. The hub at home keeps the records and checks safety before every press. The backend runs on AWS, and recognition runs inside a Nitro Enclave there, so the photos the hub sends are sealed and opened only inside that trusted execution environment, and no video leaves the home. This proposal demonstrates how unconnected controls can take part in proactive smart-home routines without replacing them.
-
----
-
-## ⚙️ System Architecture
-
-![NOVA System Architecture](./architecture.png)
-
----
-
-## 📹 Video
-
-**Demo video: coming soon**
-
-Until then, the [web demo](https://sweg9.github.io/sim-demo/) runs the 20-second process (mapping, Wi-Fi failure, Safety Guard, physical press, camera check) in a browser, with no install. Its [source](https://github.com/sweg9/sim-demo/tree/main/web) also runs offline from a local copy.
 
 ---
 

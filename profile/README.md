@@ -1,7 +1,5 @@
 # NOVA: Non-connected Object Vision and Actuation for Smart Home Routines
 
-NOVA is a smart-home system that uses a camera to learn how the switches in a home connect to its devices, so it can control even devices that aren't on the network.
-
 > 26-2 Hanyang University Software Engineering Project
 
 <img src="hero.png" width="100%" alt="NOVA: a phone app with quick control of the main light and the robot task light, beside a light switch card and the tracked robot arm.">

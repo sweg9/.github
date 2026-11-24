@@ -6,6 +6,12 @@
 
 ---
 
+## 📝 Blog
+
+[NOVA Blog](https://bit.ly/4Ckil0Z)
+
+---
+
 ## 💁🏻‍♂️ Proposal
 
 This project proposes NOVA, a system that lets a proactive smart-home agent operate controls that are not on the network: wall switches, toggles and power strips. Smart-home routines work only if every control the resident cares about is connected and registered, yet many are not, and in rented homes the wiring often cannot be changed.
@@ -33,7 +39,7 @@ Until then, the [web demo](https://sweg9.github.io/sim-demo/) runs the 20-second
 ## 📚 Documents
 
 **Reports**
-- Tech blog (Notion): *coming soon*
+- [Tech blog (Notion)](https://bit.ly/4Ckil0Z): the project page with the architecture, models and team
 - Presentation slides: *coming soon*
 - [Proposal (PDF)](https://sweg9.github.io/docs/papers/proposal.pdf): the reference document for the project
 - [Proposal (LaTeX)](https://github.com/sweg9/docs/blob/main/public/papers/proposal.tex): the LaTeX source of the proposal
@@ -91,7 +97,7 @@ Until then, the [web demo](https://sweg9.github.io/sim-demo/) runs the 20-second
 
 ## 🔗 Links
 
-NOVA | Tech Blog - *coming soon*
+[NOVA | Tech Blog](https://bit.ly/4Ckil0Z)
 
 NOVA | Presentation Slides - *coming soon*
 

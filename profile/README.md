@@ -18,7 +18,7 @@ Every action is checked rather than assumed, high-risk devices always ask first,
 
 ## ⚙️ System Architecture
 
-![NOVA System Architecture](./architecture.png?v=7)
+![NOVA System Architecture](./architecture.png?v=8)
 
 ---
 

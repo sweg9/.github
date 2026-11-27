@@ -1,6 +1,8 @@
-# NOVA: Non-connected Object Vision and Actuation for Smart Home Routines
+# NOVA: Non-connected Object Vision and Actuation for Proactive Smart Homes
 
 > 26-2 Hanyang University Software Engineering Project
+
+NOVA is a physical AI system that uses a camera to work out which switch in a home controls which device, so it can physically control even devices that aren't connected to a network.
 
 <img src="hero.png" width="100%" alt="NOVA: a phone app with quick control of the main light and the robot task light, beside a light switch card and the tracked robot arm.">
 
